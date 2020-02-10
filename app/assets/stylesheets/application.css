@@ -13,3 +13,35 @@
  *= require_tree .
  *= require_self
  */
+.letters {
+  list-style: none;
+
+
+}
+
+.letter {
+  padding: 20px;
+  background-color: #1681B3;
+  box-shadow: 10px 5px 5px grey;
+  color: white;
+}
+
+li {
+  display: inline;
+}
+
+.submit {
+  padding:6px 0 6px 0;
+  font:bold 13px Arial;
+  background:#1681B3;
+  color:#fff;
+  border-radius:2px;
+  width:100px;
+  border:none;
+}
+
+.input{
+  border-radius:2px;
+  width:200px;
+  padding:6px 0 6px 0;
+}

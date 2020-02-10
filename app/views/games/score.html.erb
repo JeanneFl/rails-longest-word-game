@@ -1,0 +1,17 @@
+
+<% if @word %>
+<%= "your word exist" %>
+<% else %>
+<%= "your word did not exist in the disctionnary" %>
+<%end%>
+<br>
+
+<% if @validation == true %>
+<%= "you won" %>
+<% else %>
+<%= "you did not use the right letter" %>
+<%end%>
+<br>
+
+<%= link_to 'play Again!', new_path %>
+
